@@ -49,6 +49,10 @@ public class Product {
         return identifier;
     }
 
+    public TypeProduct getTypeProduct() {
+        return typeProduct;
+    }
+
     @Override
     public String toString() {
         return "identifier=" + identifier +
